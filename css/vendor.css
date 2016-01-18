@@ -133,6 +133,16 @@ button{
     text-rendering: optimizeLegibility;
 }
 
+@font-face {
+  font-family: 'BloggerSansLightItalic';
+  src: url('../fonts/BloggerSansLightItalic.eot');
+  src: url('../fonts/BloggerSansLightItalic.eot') format('embedded-opentype'),
+       url('../fonts/BloggerSansLightItalic.woff2') format('woff2'),
+       url('../fonts/BloggerSansLightItalic.woff') format('woff'),
+       url('../fonts/BloggerSansLightItalic.ttf') format('truetype'),
+       url('../fonts/BloggerSansLightItalic.svg#BloggerSansLightItalic') format('svg');
+}
+
 .bx-wrapper {
   position: relative;
   margin: 0 auto;
